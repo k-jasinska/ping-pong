@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #111;
+}
+
+.canv{
+    border: 1px solid #333;
+    z-index: 2;
+}
+
+.point{
+    position: absolute;
+    top:20px;
+    left:0;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+}
+
+.counting{
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+    background-color: black;
+    color:white;
+    font-size: 48px;
+    justify-content:center;
+    text-align: center;
+}
+.text{
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.cont{
+position: absolute;
+top:25px;
+right:calc(100vw - 1100px);
+}
+.btn{
+    margin-right: 10px;
+}
+
+#particles-js {
+    width: 100vw;
+    background-color: #0f1111;
+    position: absolute;
+    border:none;
+    top:0;
+    left:0;
+    overflow: hidden;
+    height: 100vh;
+    text-align: center;
+    z-index: -1;
+  }
+  

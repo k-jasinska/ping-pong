@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ping-Pong</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="counting">
+    <div class="text"></div>
+    </div>
+    <div class="point"></div>
+    <div class="cont">
+        <button class="pause btn btn-warning">PAUSE</button>
+        <button class="reset btn btn-danger">RESET</button>
+    </div>
+    <canvas id="canv"></canvas>
+
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() { })
+      </script>
+    <script src="script.js"></script>
+</body>
+</html>
